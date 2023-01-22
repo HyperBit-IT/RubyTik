@@ -1,0 +1,5 @@
+class IPSocks
+  def add_socks_user: -> String
+
+  def ip_headers: -> untyped
+end

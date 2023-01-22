@@ -1,4 +1,12 @@
 module Rubytik
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  attr_accessor self.host: String
+  attr_accessor self.password: String
+  attr_accessor self.port: Integer
+  attr_accessor self.user: String
+
+  def self.add_socks_user: -> Integer
+
+  def self.ip_socks: -> untyped
 end

@@ -4,32 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e70d1f3-8c5e-4bd2-98c0-afe8ddf9beb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README-IT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rubytik.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rubytik/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rubytik.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sig/rubytik.rbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_rubytik.rb" afterDir="false" />
+    <list default="true" id="3e70d1f3-8c5e-4bd2-98c0-afe8ddf9beb6" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/demo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubytik/ip_socks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/ip_socks.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/rubytik/ip_socks.rbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubytik.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubytik.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sig/rubytik.rbs" beforeDir="false" afterPath="$PROJECT_DIR$/sig/rubytik.rbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class" />
+        <option value="RBS Class" />
+        <option value="Ruby File" />
+        <option value="RBS Module" />
+      </list>
+    </option>
   </component>
   <component name="GitLabServerManager">
     <selected>-1</selected>
@@ -75,11 +72,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674400885363</updated>
-      <workItem from="1674400887038" duration="443000" />
+      <workItem from="1674400887038" duration="5627000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1674401372261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674401372261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rubytik@demo.rcov" NAME="demo Coverage Results" MODIFIED="1674406783127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rubytik" />
+    <SUITE FILE_PATH="coverage/rubytik@ip_socks.rcov" NAME="ip_socks Coverage Results" MODIFIED="1674406780469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rubytik" />
+    <SUITE FILE_PATH="coverage/rubytik@rubytik.rcov" NAME="rubytik Coverage Results" MODIFIED="1674406520933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rubytik" />
   </component>
 </project>

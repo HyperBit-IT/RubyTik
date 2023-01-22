@@ -1,0 +1,5 @@
+module Rubytik
+  module IPSocks
+    def self.add_user: -> untyped
+  end
+end
